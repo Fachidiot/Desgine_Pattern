@@ -7,7 +7,7 @@ public class ObserverOn : MonoBehaviour
 {
     void Start()
     {
-        Debug.Log("=====================Observer======================");
+        Debug.Log("===================== Observer Pattern =====================");
 
         Player player = new Player("플레이어", 100);
         player.Attach(new MainScreen());

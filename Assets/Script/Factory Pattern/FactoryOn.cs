@@ -7,7 +7,8 @@ public class FactoryOn : MonoBehaviour
 {
     void Start()
     {
-        Debug.Log("====================Factory=====================");
+        Debug.Log("===================== Factory Pattern =====================");
+
         FactoryModule[] factories = new FactoryModule[2];
 
         factories[0] = new NotebookModule();

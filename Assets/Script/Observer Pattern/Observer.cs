@@ -64,7 +64,7 @@ namespace OBSERVER
         public void Update(State state)
         {
             this.m_state = state;
-            Debug.Log("메인화면 " + this.m_state.Name + "상태 변경 : 체력 " + this.m_state.Health.ToString());
+            Debug.Log("메인화면 " + this.m_state.Name + "상태 변경 : 체력 " + this.m_state.Health);
         }
 
         public State State { get { return m_state; } set { m_state = value; } }
@@ -77,7 +77,7 @@ namespace OBSERVER
         public void Update(State state)
         {
             this.m_state = state;
-            Debug.Log("상태창 " + this.m_state.Name + "상태 변경 : 체력 " + this.m_state.Health.ToString());
+            Debug.Log("상태창 " + this.m_state.Name + "상태 변경 : 체력 " + this.m_state.Health);
         }
 
         public State State { get { return m_state; } set { m_state = value; } }
@@ -90,7 +90,7 @@ namespace OBSERVER
         public void Update(State state)
         {
             this.m_state = state;
-            Debug.Log("상대창 " + this.m_state.Name + "상태 변경 : 체력 " + this.m_state.Health.ToString());
+            Debug.Log("상대창 " + this.m_state.Name + "상태 변경 : 체력 " + this.m_state.Health);
         }
 
         public State State { get { return m_state; } set { m_state = value; } }

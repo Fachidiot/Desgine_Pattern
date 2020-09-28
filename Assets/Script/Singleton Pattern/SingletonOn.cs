@@ -6,7 +6,7 @@ public class SingletonOn : MonoBehaviour
 {
     void Start()
     {
-        Debug.Log("=================Singleton==================");
+        Debug.Log("===================== Singleton Pattern =====================");
         Singleton s1 = Singleton.Instance();
         Singleton s2 = Singleton.Instance();
 
